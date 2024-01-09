@@ -6,6 +6,10 @@ document.getElementById('btn-age-result').addEventListener('click', function(){
         h3.innerText = ('You are an Adult');
         
     }
+    else if( inputText <=0 ){
+        const h3 = document.getElementById('input-result');
+        h3.innerText = ('Invalid Age');
+    }
     else{
         const h3 = document.getElementById('input-result');
         h3.innerText = ('You are a Child');

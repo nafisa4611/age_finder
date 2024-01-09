@@ -4,8 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Finder</title>
+    <link rel="stylesheet" href="agefinder.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+
 </head>
 <body>
-    
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">NJM</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="banner">
+    <div class="search-result">
+      <div class="search">
+        <h1 class="text-center search-text fw-bold text-light">Please Enter Your Age</h1>
+        <br>
+        <div class="d-flex justify-content-center search-bar">
+          <input id="input-field" type="text" placeholder="type your age" name="search">
+          <button id="btn-age-result">search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="search-result">
+      <div class="card" style="width: 18rem;">
+        <img src="image/6017944.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 id="input-result" class="card-text text-center">Result</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-us">
+    <h1 class="text-center fw-bold">Contact Us</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="image/profile1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biplob Ahmed</h5>
+          <p class="card-text">Hello! I am here to help you guys with your coding. Do not hesitate and let me know about any kind of problems.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Go with Coding...</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/profile2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tanim Mahmud</h5>
+          <p class="card-text">Lets code your life with passion and hard work, make your dreams true. Always look forward with hope.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Keep smiling...</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/profile3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sahin Sahariar</h5>
+          <p class="card-text">Hope you will find your destination with us and we are here to help you to find your best carrier.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Always have a positive thought...</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p class="text-center footer-text text-light">Copyright &copy; njm.com</p>
+  </footer>
+  
+
+  
+  <script src="ageFinder.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>
